@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(132deg, rgb(249, 206, 183) 0.00%, rgb(173, 209, 242) 100.00%);
+    background-attachment: fixed;
+
+    font-family: 'Poppins';
+}
+
+#outerDIV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 720px;
+}
+
+.TicTacToeContainer {
+    width: 30%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TicTacToeRows {
+    width: 100%;
+    height: 33.3%;
+}
+
+#strtBtn {
+    background: linear-gradient(132deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+    
+    border: none;
+    border-radius: 25px;
+    outline: none;
+
+    color: rebeccapurple;
+    font-size: 14px;
+    font-weight: bold;
+
+    height: 50px;
+    width: 100px;
+}
+
+#strtBtn:hover {
+    background: linear-gradient(132deg, rgb(227, 244, 253) 0.00%, rgb(170, 209, 226) 100.00%);
+}
+
+#strtBtn:active {
+    background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
+}
+
+.TicTacToeColumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+
+    border: 10px solid rgba(255, 255, 255, 0);
+}
+
+#column1 {
+    border-right: 10px solid lightblue;
+    border-bottom: 10px solid gray;
+}
+
+#column2 {
+    border-left: 10px solid gray;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid gray;
+}
+
+#column3 {
+    border-left: 10px solid lightblue;
+    border-bottom: 10px solid gray;
+}
+
+#column4 {
+    border-top: 10px solid lightblue;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid lightblue;
+}
+
+#column5 {
+    border-top: 10px solid lightblue;
+    border-left: 10px solid lightblue;
+    border-right: 10px solid lightblue;
+    border-bottom: 10px solid lightblue;
+}
+
+#column6 {
+    border-top: 10px solid lightblue;
+    border-left: 10px solid gray;
+    border-bottom: 10px solid lightblue;
+}
+
+#column7 {
+    border-right: 10px solid lightblue;
+    border-top: 10px solid gray;
+}
+
+#column8 {
+    border-top: 10px solid gray;
+    border-right: 10px solid gray;
+    border-left: 10px solid gray;
+}
+
+#column9 {
+    border-left: 10px solid lightblue;
+    border-top: 10px solid gray;
+}
+
+#infoDIV {
+    background: linear-gradient(132deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+
+    border-radius: 50px;
+
+    height: 60px;
+    width: 300px;
+
+    color: rebeccapurple;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
